@@ -1,0 +1,16 @@
+<% provide(:title, @project.name) %>
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <%= @project.name %> <br>
+        <%= @project.description %>
+      </h1>
+    </section>
+  </aside>
+
+  <li>
+  	 <%= link_to "Edit Project"%> <br>
+  	 <%= link_to "Delete project"%>
+  </li>
+</div>
